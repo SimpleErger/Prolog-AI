@@ -1,2 +1,2 @@
-?- maximum(5, 3, Result).
-Result = 5.
+maximum(X, Y, X) :- X >= Y.
+maximum(X, Y, Y) :- X < Y.
