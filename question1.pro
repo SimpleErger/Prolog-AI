@@ -1,2 +1,2 @@
-?- sum(5, 3, Result).
-Result = 8.
+sum(X, Y, Sum) :-
+    Sum is X + Y.
